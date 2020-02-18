@@ -23,12 +23,16 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   margin-top: 0%;
+  margin-bottom: 8px;
+}
+
+h3 {
+  margin-top: 28px;
 }
 .rightSect {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   width: 30%;
   height: 700px;
-  
 }
 .container,
 .searchInput,
@@ -69,12 +73,12 @@ p {
 .leftSection {
   width: 70%;
   height: 600px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 .child {
   height: 100px;
   width: 80%;
-  display: flex; 
+  display: flex;
   padding-right: 5px;
 }
 .child img {
@@ -82,7 +86,6 @@ p {
   margin-bottom: 0;
   margin-right: 5px;
 }
-
 
 .menuIcon {
   width: 4%;
@@ -124,7 +127,6 @@ p {
   height: 40px;
   margin-top: 20px;
   margin-left: 0px;
-  
 }
 
 .webCam,
@@ -140,4 +142,45 @@ p {
 .profile img {
   width: 30px;
   height: 30px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.videoLikes .likes {
+  margin-left: 300px;
+  display: flex;
+  width: 100px;
+  margin-top: 0px;
+}
+
+.videoLikes .dislike,
+.videoLikes .share,
+.videoLikes .save,
+.videoLikes {
+  display: flex;
+}
+.videoLikes label {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.numberofviews {
+  padding: 4px;
+}
+
+.upper {
+  height: 40px;
+  width: 880px;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-left: 680px;
 }
