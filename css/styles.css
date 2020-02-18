@@ -6,9 +6,13 @@ body {
 nav {
   width: 100%;
   height: 70px;
-  background-color: yellow;
+  padding-top: 5px;
 }
 
+.general {
+  display: flex;
+  width: 100%;
+}
 section {
   margin: 30px;
   height: 600px;
@@ -19,17 +23,49 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
-.rightSect{
+.rightSect {
   background-color: aqua;
   width: 30%;
   height: 500px;
   margin-top: 30px;
-
 }
-.container{
+.container,
+.searchInput,
+.rightSection {
   display: flex;
 }
-.leftSection{
+
+.rightSection {
+  text-align: right;
+  margin-left: 100px;
+}
+
+.searchInput {
+  width: 50%;
+  height: 60px;
+  margin-top: 22px;
+  margin-left: 10%;
+}
+
+.searchInput .icon {
+  width: 63px;
+  height: 32px;
+  border-top-right-radius: 3px;
+  border: 1px solid lightgrey;
+  margin-left: 10px;
+}
+
+.searchInput img {
+  width: 20px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.searchInput .inputSection {
+  width: 80%;
+  height: 50px;
+}
+.leftSection {
   width: 70%;
   height: 600px;
 }
@@ -37,10 +73,64 @@ p {
   background-color: blue;
   height: 90%;
 }
-.child{
+.child {
   height: 25%;
   width: 70%;
 }
-img{
-  width: 200px;
+
+.menuIcon {
+  width: 4%;
+  height: 20px;
+}
+
+.menuIcon img {
+  height: 20px;
+  width: 30px;
+}
+
+.youtubeIcon {
+  width: 10%;
+  height: 70px;
+}
+
+.youtubeIcon img {
+  height: 40px;
+  width: 100px;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+.inputSection {
+  width: 100%;
+  height: 30px;
+}
+.inputSection input {
+  width: 100%;
+  border: 1px solid lightgrey;
+  height: 30px;
+  padding-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.rightSection section {
+  width: 50px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.webCam,
+.dashboard {
+  padding-top: 5px;
+  margin-right: 0;
+}
+
+.notification {
+  margin-right: 0;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
 }
