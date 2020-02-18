@@ -8,3 +8,14 @@ nav {
   height: 70px;
   background-color: yellow;
 }
+
+section {
+  margin: 30px;
+  height: 600px;
+}
+
+h3,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
