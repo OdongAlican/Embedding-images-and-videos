@@ -15,6 +15,7 @@ nav {
   display: flex;
   width: 100%;
 }
+
 section {
   margin: 30px;
   height: 600px;
@@ -31,6 +32,7 @@ p {
 h3 {
   margin-top: 28px;
 }
+
 .rightSect {
   width: 100%;
   height: 478px;
@@ -53,6 +55,7 @@ h3 {
   height: 90%;
   margin-top: 40px;
 }
+
 .container,
 .searchInput,
 .rightSection {
@@ -63,11 +66,9 @@ h3 {
   background-color: #f9f9f9;
   z-index: -1;
   height: 1700px;
-}
-
-.container {
   padding-top: 60px;
 }
+
 .rightSection {
   text-align: right;
   margin-left: 100px;
@@ -94,15 +95,23 @@ h3 {
   margin-left: 15px;
   margin-top: 5px;
 }
+
+.inputSection {
+  width: 100%;
+  height: 30px;
+}
+
 .searchInput .inputSection {
   width: 80%;
   height: 50px;
 }
+
 .leftSection {
   width: 70%;
   height: 600px;
   background-color: #f9f9f9;
 }
+
 .child {
   height: 100px;
   width: 80%;
@@ -114,6 +123,7 @@ h3 {
   background-color: lightgray;
   width: 90%;
 }
+
 .child img {
   width: 160px;
   margin-bottom: 0;
@@ -142,10 +152,6 @@ h3 {
   margin-top: 15%;
 }
 
-.inputSection {
-  width: 100%;
-  height: 30px;
-}
 .inputSection input {
   width: 100%;
   border: 1px solid lightgrey;
@@ -159,7 +165,7 @@ h3 {
   width: 50px;
   height: 40px;
   margin-top: 20px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .webCam,
@@ -184,11 +190,18 @@ label {
   color: gray;
 }
 
+.individualComment,
+.likes,
+.dislike,
+.likesAndDislikes {
+  display: flex;
+}
+
 .videoLikes .likes {
   margin-left: 300px;
   display: flex;
   width: 100px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .videoLikes .dislike,
@@ -197,6 +210,7 @@ label {
 .videoLikes {
   display: flex;
 }
+
 .videoLikes label {
   margin-right: 20px;
   margin-top: 5px;
@@ -246,6 +260,7 @@ button {
   height: 40px;
   margin-left: 335px;
 }
+
 .topRightSection {
   width: 29%;
   height: 80px;
@@ -254,12 +269,15 @@ button {
   z-index: 0;
   display: flex;
 }
+
 .topRightSection img {
   margin-left: 70%;
 }
+
 .topRightSection h4 {
   margin-left: 10px;
 }
+
 .descriptionSection {
   margin-top: -50px;
   height: 160px;
@@ -267,13 +285,16 @@ button {
   border-top: 1px solid lightgray;
   padding-top: 10px;
 }
+
 .sortBy {
   display: flex;
 }
+
 .sortBy img {
   margin-left: 20px;
   margin-top: -5px;
 }
+
 .comments input {
   border: none;
   border-bottom: 1px solid gray;
@@ -282,37 +303,36 @@ button {
   height: 17px;
   outline: none;
 }
+
 .comments input:hover {
   border-bottom: 2px solid black;
   outline: none;
 }
+
 .addComment {
   display: flex;
   margin-top: 10px;
   margin-left: 5%;
 }
+
 .btnComment {
   display: flex;
   text-align: right;
   padding-left: 70%;
 }
+
 .btnComment button {
   margin-left: 2px;
 }
+
 .cancelBtn {
   background: none;
   color: gray;
 }
+
 .commentBtn {
   background: gray;
   color: #ffff;
-}
-
-.individualComment,
-.likes,
-.dislike,
-.likesAndDislikes {
-  display: flex;
 }
 
 .individualComment label {
@@ -324,6 +344,10 @@ button {
 .singleComment {
   margin-left: 10px;
   width: 100%;
+}
+
+.likesAndDislikes label {
+  margin-left: 10px;
 }
 
 .individualComment .dislike label {
@@ -351,9 +375,10 @@ button {
   margin-left: 30px;
 }
 
-.likesAndDislikes label {
-  margin-left: 10px;
+a {
+  text-decoration: none;
 }
+
 .linkSection {
   display: flex;
   margin-left: 5%;
@@ -362,6 +387,13 @@ button {
 .linkSection a {
   margin-top: 5px;
 }
-a {
-  text-decoration: none;
+
+iframe {
+  border: none;
+  width: 160px;
+}
+
+.leftSection iframe {
+  width: 100%;
+  height: 80%;
 }
