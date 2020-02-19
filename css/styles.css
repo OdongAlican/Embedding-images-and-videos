@@ -5,12 +5,15 @@ body {
 
 nav {
   width: 100%;
+  background-color: white;
+  position: fixed;
+  height: 70px;
+  z-index: 2;
 }
 
 .general {
   display: flex;
   width: 100%;
-  
 }
 section {
   margin: 30px;
@@ -36,6 +39,10 @@ h3 {
   margin-top: 30px;
 }
 
+#firstChild {
+  margin-top: 90px;
+}
+
 .generalRightSection {
   width: 29%;
   height: 1200px;
@@ -56,6 +63,10 @@ h3 {
   background-color: #f9f9f9;
   z-index: -1;
   height: 1700px;
+}
+
+.container {
+  padding-top: 60px;
 }
 .rightSection {
   text-align: right;
@@ -240,6 +251,7 @@ button {
   height: 80px;
   background-color: #ffff;
   position: absolute;
+  z-index: 0;
   display: flex;
 }
 .topRightSection img {
