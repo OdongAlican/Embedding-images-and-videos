@@ -12,6 +12,7 @@ nav {
 .general {
   display: flex;
   width: 100%;
+  background-color: #ffff;
 }
 section {
   margin: 30px;
@@ -30,9 +31,11 @@ h3 {
   margin-top: 28px;
 }
 .rightSect {
-  background-color: #f9f9f9;
-  width: 30%;
-  height: 700px;
+  width: 29%;
+  height: 478px;
+  border: 1px solid lightgrey;
+  overflow-y: scroll;
+  margin-top: 30px;
 }
 .container,
 .searchInput,
@@ -40,6 +43,9 @@ h3 {
   display: flex;
 }
 
+.container {
+  background-color: #f9f9f9;
+}
 .rightSection {
   text-align: right;
   margin-left: 100px;
@@ -80,6 +86,11 @@ h3 {
   width: 80%;
   display: flex;
   padding-right: 5px;
+}
+
+.child:hover {
+  background-color: lightgray;
+  width: 90%;
 }
 .child img {
   width: 160px;
@@ -147,6 +158,7 @@ h3 {
 label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
+  color: gray;
 }
 
 .videoLikes .likes {
@@ -172,15 +184,38 @@ label {
 }
 
 .upper {
-  height: 40px;
-  width: 880px;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: lightgreen;
+}
+.upper .label {
+  margin-left: 10%;
+  background-color: red;
+  width: 200px;
 }
 
+.upper label {
+  color: black;
+}
 button {
   background-color: red;
   border: none;
   color: white;
   width: 100px;
   height: 40px;
-  margin-left: 680px;
+  margin-left: 610px;
+}
+.topRightSection {
+  width: 29%;
+  height: 80px;
+  background-color: #ffff;
+  position: absolute;
+}
+
+.descriptionSection {
+  margin-top: -50px;
+  height: 200px;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
