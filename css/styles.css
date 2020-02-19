@@ -187,24 +187,41 @@ label {
   display: flex;
   height: 80px;
   width: 100%;
-  background-color: lightgreen;
-}
-.upper .label {
-  margin-left: 10%;
-  background-color: red;
-  width: 200px;
 }
 
-.upper label {
-  color: black;
+.lower,
+.showMore {
+  width: 80%;
+  height: 60px;
+  margin-left: 10%;
 }
+
+.showMore {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.lower label {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper .label {
+  width: 40%;
+}
+
+.albumLogo {
+  margin-left: 5%;
+}
+
 button {
   background-color: red;
   border: none;
   color: white;
-  width: 100px;
+  width: 25%;
   height: 40px;
-  margin-left: 610px;
+  margin-left: 335px;
 }
 .topRightSection {
   width: 29%;
@@ -215,7 +232,8 @@ button {
 
 .descriptionSection {
   margin-top: -50px;
-  height: 200px;
+  height: 160px;
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
+  padding-top: 10px;
 }
