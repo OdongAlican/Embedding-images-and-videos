@@ -229,8 +229,15 @@ button {
   height: 80px;
   background-color: #ffff;
   position: absolute;
+  display: flex;
 }
+.topRightSection img {
+margin-left: 70%;
 
+}
+.topRightSection h4 {
+  margin-left: 10px;
+}
 .descriptionSection {
   margin-top: -50px;
   height: 160px;
@@ -336,3 +343,4 @@ button {
 a {
   text-decoration: none;
 }
+
