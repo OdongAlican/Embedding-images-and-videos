@@ -15,6 +15,16 @@ h6{
   display: none;
 }
 
+button{
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background: lightgray;
+}
+
 .general {
   display: flex;
   width: 100%;
@@ -244,6 +254,19 @@ label {
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
 }
+ .showMore button{
+  color: gray;
+  background: #F9F9F9;
+ }
+
+ .shareBtn{
+   margin-top: -10px;
+ }
+
+.likesAndDislikes button {
+  background: #F9F9F9;
+  color: gray;
+}
 
 .lower label {
   color: black;
@@ -300,6 +323,10 @@ label {
 .sortBy img {
   margin-left: 20px;
   margin-top: -5px;
+}
+
+.sortBy button{
+  background: #F9F9F9;
 }
 
 .comments input {
