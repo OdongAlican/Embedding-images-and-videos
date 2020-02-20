@@ -11,17 +11,17 @@ nav {
   z-index: 2;
 }
 
-h6{
+h6 {
   display: none;
 }
 
-button{
+button {
   border: none;
   background: white;
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background: lightgray;
 }
 
@@ -79,7 +79,7 @@ h3 {
 .container {
   background-color: #f9f9f9;
   z-index: -1;
-  height: 1700px;
+  height: 1750px;
   padding-top: 60px;
 }
 
@@ -144,6 +144,10 @@ h3 {
   width: 160px;
   margin-bottom: 0;
   margin-right: 5px;
+}
+
+.child div {
+  margin-left: 10px;
 }
 
 .menuIcon {
@@ -220,6 +224,10 @@ label {
   margin-top: 0;
 }
 
+.likesAndDislikes .dislike {
+  margin-top: 5px;
+}
+
 .videoLikes .dislike,
 .videoLikes .share,
 .videoLikes .save,
@@ -230,6 +238,14 @@ label {
 .videoLikes label {
   margin-right: 20px;
   margin-top: 5px;
+}
+
+.videoLikes button {
+  background: #f9f9f9;
+}
+
+.videoLikes button:hover {
+  background-color: lightgray;
 }
 
 .numberofviews {
@@ -254,18 +270,22 @@ label {
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
 }
- .showMore button{
+.showMore button {
   color: gray;
-  background: #F9F9F9;
- }
+  background: #f9f9f9;
+}
 
- .shareBtn{
-   margin-top: -10px;
- }
+.shareBtn {
+  margin-top: -10px;
+}
 
 .likesAndDislikes button {
-  background: #F9F9F9;
+  background: #f9f9f9;
   color: gray;
+}
+
+.likesAndDislikes button:hover {
+  background-color: lightgray;
 }
 
 .lower label {
@@ -325,8 +345,8 @@ label {
   margin-top: -5px;
 }
 
-.sortBy button{
-  background: #F9F9F9;
+.sortBy button {
+  background: #f9f9f9;
 }
 
 .comments input {
@@ -389,7 +409,7 @@ label {
 }
 
 .likesAndDislikes label {
-  margin-left: 10px;
+  margin-top: 8px;
 }
 
 .individualComment .dislike label {
@@ -403,14 +423,13 @@ label {
 
 .likesAndDislikes {
   margin-left: 5%;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 
 .likesAndDislikes img {
   height: 25px;
   width: 25px;
-  margin-top: -4px;
 }
 
 .likesAndDislikes .dislike {
@@ -424,6 +443,14 @@ a {
 .linkSection {
   display: flex;
   margin-left: 5%;
+}
+
+.linkSection button {
+  background: #f9f9f9;
+}
+
+.linkSection button:hover {
+  background-color: lightgray;
 }
 
 .linkSection a {
