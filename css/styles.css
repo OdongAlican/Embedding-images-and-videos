@@ -226,6 +226,7 @@ label {
 
 .likesAndDislikes .dislike {
   margin-top: 5px;
+  margin-left: 30px;
 }
 
 .videoLikes .dislike,
@@ -241,6 +242,38 @@ label {
 }
 
 .videoLikes button {
+  background: #f9f9f9;
+}
+
+.showMore button {
+  color: gray;
+  background: #f9f9f9;
+}
+
+.likesAndDislikes button {
+  background: #f9f9f9;
+  color: gray;
+}
+
+.buttonSection button {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 150px;
+  height: 40px;
+  margin-left: 335px;
+  cursor: pointer;
+}
+
+.sortBy button {
+  background: #f9f9f9;
+}
+
+.btnComment button {
+  margin-left: 2px;
+}
+
+.linkSection button {
   background: #f9f9f9;
 }
 
@@ -270,18 +303,9 @@ label {
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
 }
-.showMore button {
-  color: gray;
-  background: #f9f9f9;
-}
 
 .shareBtn {
   margin-top: -10px;
-}
-
-.likesAndDislikes button {
-  background: #f9f9f9;
-  color: gray;
 }
 
 .likesAndDislikes button:hover {
@@ -299,16 +323,6 @@ label {
 
 .albumLogo {
   margin-left: 5%;
-}
-
-.buttonSection button {
-  background-color: red;
-  border: none;
-  color: white;
-  width: 150px;
-  height: 40px;
-  margin-left: 335px;
-  cursor: pointer;
 }
 
 .topRightSection {
@@ -345,10 +359,6 @@ label {
   margin-top: -5px;
 }
 
-.sortBy button {
-  background: #f9f9f9;
-}
-
 .comments input {
   border: none;
   border-bottom: 1px solid gray;
@@ -373,10 +383,6 @@ label {
   display: flex;
   text-align: right;
   padding-left: 70%;
-}
-
-.btnComment button {
-  margin-left: 2px;
 }
 
 .cancelBtn {
@@ -432,10 +438,6 @@ label {
   width: 25px;
 }
 
-.likesAndDislikes .dislike {
-  margin-left: 30px;
-}
-
 a {
   text-decoration: none;
 }
@@ -443,10 +445,6 @@ a {
 .linkSection {
   display: flex;
   margin-left: 5%;
-}
-
-.linkSection button {
-  background: #f9f9f9;
 }
 
 .linkSection button:hover {
