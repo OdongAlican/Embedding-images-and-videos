@@ -4,7 +4,7 @@
 
 > This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-![screenshot](./images/app_screenshot.jpg)
+![screenshot](images/app_screenshot.jpg)
 
 The purpose of this project is to clone the appearance of youtube homepage using HTML and CSS.
 
@@ -27,10 +27,10 @@ The purpose of this project is to clone the appearance of youtube homepage using
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-## You should have installed git on your local machine and a text editor preferably VS Code.
+#### You should have installed git on your local machine and a text editor preferably VS Code.
 
 ### Setup
-## Clone the repository into your local machine.
+#### Clone the repository into your local machine.
 
 ## Authors
 
