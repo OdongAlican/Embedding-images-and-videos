@@ -11,6 +11,10 @@ nav {
   z-index: 2;
 }
 
+h6{
+  display: none;
+}
+
 .general {
   display: flex;
   width: 100%;
@@ -83,10 +87,12 @@ h3 {
 
 .searchInput .icon {
   width: 63px;
-  height: 32px;
+  height: 34px;
   border-top-right-radius: 3px;
   border: 1px solid lightgrey;
   margin-left: 10px;
+  cursor: pointer;
+  background: white;
 }
 
 .searchInput img {
@@ -252,13 +258,14 @@ label {
   margin-left: 5%;
 }
 
-button {
+.buttonSection button {
   background-color: red;
   border: none;
   color: white;
   width: 150px;
   height: 40px;
   margin-left: 335px;
+  cursor: pointer;
 }
 
 .topRightSection {
@@ -328,11 +335,19 @@ button {
 .cancelBtn {
   background: none;
   color: gray;
+  border: none;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .commentBtn {
   background: gray;
   color: #ffff;
+  border: none;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .individualComment label {
