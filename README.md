@@ -4,7 +4,7 @@
 
 > This project consists of building an HTML document that matches the appearance of youtube video player page.
 
-![screenshot](./app_screenshot.jpg)
+![screenshot](./images/app_screenshot.jpg)
 
 The purpose of this project is to clone the appearance of youtube homepage using HTML and CSS.
 
