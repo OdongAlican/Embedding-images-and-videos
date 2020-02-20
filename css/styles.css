@@ -1,0 +1,466 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  height: 70px;
+  z-index: 2;
+}
+
+h6 {
+  display: none;
+}
+
+button {
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightgray;
+}
+
+.general {
+  display: flex;
+  width: 100%;
+}
+
+section {
+  margin: 30px;
+  height: 600px;
+}
+
+h3,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-top: 0%;
+  margin-bottom: 8px;
+}
+
+h3 {
+  margin-top: 28px;
+}
+
+.rightSect {
+  width: 100%;
+  height: 478px;
+  border: 1px solid lightgrey;
+  overflow-y: scroll;
+  margin-top: 30px;
+}
+
+#firstChild {
+  margin-top: 90px;
+}
+
+.generalRightSection {
+  width: 29%;
+  height: 1200px;
+}
+
+.bottomRightSection {
+  width: 100%;
+  height: 90%;
+  margin-top: 40px;
+}
+
+.container,
+.searchInput,
+.rightSection {
+  display: flex;
+}
+
+.container {
+  background-color: #f9f9f9;
+  z-index: -1;
+  height: 1750px;
+  padding-top: 60px;
+}
+
+.rightSection {
+  text-align: right;
+  margin-left: 100px;
+}
+
+.searchInput {
+  width: 50%;
+  height: 60px;
+  margin-top: 22px;
+  margin-left: 10%;
+}
+
+.searchInput .icon {
+  width: 63px;
+  height: 34px;
+  border-top-right-radius: 3px;
+  border: 1px solid lightgrey;
+  margin-left: 10px;
+  cursor: pointer;
+  background: white;
+}
+
+.searchInput img {
+  width: 20px;
+  height: 22px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.inputSection {
+  width: 100%;
+  height: 30px;
+}
+
+.searchInput .inputSection {
+  width: 80%;
+  height: 50px;
+}
+
+.leftSection {
+  width: 70%;
+  height: 600px;
+  background-color: #f9f9f9;
+}
+
+.child {
+  height: 100px;
+  width: 80%;
+  display: flex;
+  padding-right: 5px;
+}
+
+.child:hover {
+  background-color: lightgray;
+  width: 90%;
+}
+
+.child img {
+  width: 160px;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.child div {
+  margin-left: 10px;
+}
+
+.menuIcon {
+  width: 4%;
+  height: 20px;
+}
+
+.menuIcon img {
+  height: 20px;
+  width: 30px;
+}
+
+.youtubeIcon {
+  width: 10%;
+  height: 70px;
+}
+
+.youtubeIcon img {
+  height: 40px;
+  width: 100px;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+.inputSection input {
+  width: 100%;
+  border: 1px solid lightgrey;
+  height: 30px;
+  padding-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.rightSection section {
+  width: 50px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+.webCam,
+.dashboard {
+  padding-top: 5px;
+  margin-right: 0;
+}
+
+.notification {
+  margin-right: 0;
+}
+
+.profile img,
+.comments img {
+  width: 30px;
+  height: 30px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: gray;
+}
+
+.individualComment,
+.likes,
+.dislike,
+.likesAndDislikes {
+  display: flex;
+}
+
+.videoLikes .likes {
+  margin-left: 300px;
+  display: flex;
+  width: 100px;
+  margin-top: 0;
+}
+
+.likesAndDislikes .dislike {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.videoLikes .dislike,
+.videoLikes .share,
+.videoLikes .save,
+.videoLikes {
+  display: flex;
+}
+
+.videoLikes label {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.videoLikes button {
+  background: #f9f9f9;
+}
+
+.showMore button {
+  color: gray;
+  background: #f9f9f9;
+}
+
+.likesAndDislikes button {
+  background: #f9f9f9;
+  color: gray;
+}
+
+.buttonSection button {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 150px;
+  height: 40px;
+  margin-left: 335px;
+  cursor: pointer;
+}
+
+.sortBy button {
+  background: #f9f9f9;
+}
+
+.btnComment button {
+  margin-left: 2px;
+}
+
+.linkSection button {
+  background: #f9f9f9;
+}
+
+.videoLikes button:hover {
+  background-color: lightgray;
+}
+
+.numberofviews {
+  padding: 4px;
+}
+
+.upper {
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
+.lower,
+.showMore {
+  width: 80%;
+  height: 60px;
+  margin-left: 10%;
+}
+
+.showMore {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.shareBtn {
+  margin-top: -10px;
+}
+
+.likesAndDislikes button:hover {
+  background-color: lightgray;
+}
+
+.lower label {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper .label {
+  width: 40%;
+}
+
+.albumLogo {
+  margin-left: 5%;
+}
+
+.topRightSection {
+  width: 29%;
+  height: 80px;
+  background-color: #ffff;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+}
+
+.topRightSection img {
+  margin-left: 70%;
+}
+
+.topRightSection h4 {
+  margin-left: 10px;
+}
+
+.descriptionSection {
+  margin-top: -50px;
+  height: 160px;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.sortBy {
+  display: flex;
+}
+
+.sortBy img {
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+.comments input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  margin-left: 5px;
+  height: 17px;
+  outline: none;
+}
+
+.comments input:hover {
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.addComment {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+
+.btnComment {
+  display: flex;
+  text-align: right;
+  padding-left: 70%;
+}
+
+.cancelBtn {
+  background: none;
+  color: gray;
+  border: none;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.commentBtn {
+  background: gray;
+  color: #ffff;
+  border: none;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.individualComment label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: black;
+}
+
+.singleComment {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.likesAndDislikes label {
+  margin-top: 8px;
+}
+
+.individualComment .dislike label {
+  margin-left: 40px;
+}
+
+.individualComment {
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+.likesAndDislikes {
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.likesAndDislikes img {
+  height: 25px;
+  width: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkSection {
+  display: flex;
+  margin-left: 5%;
+}
+
+.linkSection button:hover {
+  background-color: lightgray;
+}
+
+.linkSection a {
+  margin-top: 5px;
+}
+
+iframe {
+  border: none;
+  width: 160px;
+}
+
+.leftSection iframe {
+  width: 100%;
+  height: 80%;
+}

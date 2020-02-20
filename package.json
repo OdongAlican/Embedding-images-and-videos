@@ -1,0 +1,24 @@
+{
+  "name": "Embedding-images-and-videos",
+  "version": "1.0.0",
+  "description": "User interface for an application of embedding images and videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdongAlican/Embedding-images-and-videos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdongAlican/Embedding-images-and-videos/issues"
+  },
+  "homepage": "https://github.com/OdongAlican/Embedding-images-and-videos#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
